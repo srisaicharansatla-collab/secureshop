@@ -1,0 +1,12 @@
+# INTENTIONALLY OUTDATED — this pin is the A06 "Vulnerable and Outdated
+# Components" finding for the assignment. Do not upgrade this file in the
+# vulnerable_app folder; the fixed_app folder has the patched versions.
+#
+# Flask 2.0.1 (released May 2021) bundles Werkzeug 2.0.1.
+# Flask < 2.3.2 / 2.2.5 is affected by CVE-2023-30861: under certain
+# configurations, a response's Set-Cookie header (including the session
+# cookie) can be cached and replayed by an intermediary/shared cache,
+# leading to session data disclosure or session fixation.
+# Latest stable release at time of writing: Flask 3.x.
+Flask==2.0.1
+Werkzeug==2.0.1

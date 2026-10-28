@@ -1,0 +1,4 @@
+# FIX (A06): upgraded off the vulnerable 2.0.1 pin to current stable releases.
+Flask>=3.0.3
+Werkzeug>=3.0.3
+MarkupSafe>=2.1.5
